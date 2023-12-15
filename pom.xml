@@ -7,7 +7,7 @@
   <artifactId>maven-project</artifactId>
   <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>Maven Project</name>
+  <name>Maven_Project</name>
   <description>Sample Maven project with a working, deployable site.</description>
   <url>http://www.example.com</url>
 
@@ -29,11 +29,11 @@
     </site>
     <snapshotRepository>
             <id>nexus</id>
-            <url>http://54.82.37.30:8081/repository/maven-snapshots/</url>
+            <url>http://172.31.86.235:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
         <repository>
             <id>nexus</id>
-            <url>http://54.82.37.30:8081/repository/maven-releases/</url>
+            <url>http://172.31.86.235:8081/repository/maven-releases/</url>
         </repository>
   </distributionManagement>
 
